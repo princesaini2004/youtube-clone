@@ -1,0 +1,466 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.header {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head {
+  display: flex;
+  margin-right: 20px;
+}
+
+#search {
+  width: 40vw;
+  border: 2px solid rgb(210, 209, 209);
+  border-radius: 20px;
+}
+
+#micro {
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.icon {
+  font-size: 23px;
+  margin: 10px;
+}
+
+.dir {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7vw;
+  color: black;
+  font-size: 12px;
+  padding: 10px 0px;
+  background-color: white;
+}
+
+i {
+  font-size: 20px;
+}
+
+.button:hover {
+  box-sizing: border-box;
+  background-color: rgb(230, 228, 228);
+  border-radius: 10px;
+}
+
+.tou {
+  border: none;
+  padding: 20px 0px;
+}
+
+.links {
+  position: relative;
+  left: 100px;
+  height: 11vh;
+  width: 92%;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.links::-webkit-scrollbar {
+  width: 1px;
+}
+
+.link {
+  border: none;
+  border-radius: 10px;
+  padding: 1px 15px;
+  margin: 10px;
+  background-color: rgb(242, 242, 242);
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  background-color: rgb(186, 184, 184);
+}
+
+.video {
+  height: 81vh;
+  width: 92%;
+  overflow-y: scroll;
+  position: relative;
+  left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video::-webkit-scrollbar {
+  width: 8px;
+}
+
+.video::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.video::-webkit-scrollbar-thumb {
+  background-color: rgb(108, 108, 109);
+  border-radius: 20px;
+}
+
+.box {
+  height: 40vh;
+  width: 30%;
+  justify-items: center;
+  margin: 10px 15px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.box:hover {
+  border-radius: 0px;
+}
+
+.toggle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 20%;
+  background-color: white;
+  z-index: 10;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+#js {
+  display: none;
+}
+
+.maincontainer {
+  padding: 12px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.iframe {
+  position: relative;
+  height: 70%;
+  width: 30%;
+  margin-bottom: 5vh;
+
+  &:hover {
+    iframe {
+      border-radius: 0px;
+      transition: linear 0.5s;
+    }
+
+    .dots {
+      display: block;
+    }
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 60%;
+  border-radius: 24px;
+
+}
+
+.text {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 40%;
+
+}
+
+.pic {
+  width: 20%;
+  height: 100%;
+
+
+}
+
+.content {
+  width: 80%;
+  height: 100%;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.about {
+  color: black;
+  font-size: 13px;
+}
+
+.discription,
+.views {
+  color: gray;
+  position: relative;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.dots {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  top: 12px;
+  right: 0px;
+  display: none;
+}
+
+.firstpage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+#img {
+  width: 40%;
+}
+
+.firstpage h1,
+h2 {
+  font-weight: 100;
+}
+
+.Premium {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: rgb(6, 95, 212);
+  border-radius: 20px;
+}
+
+.firstpage h4 {
+  font-weight: 500;
+}
+
+hr {
+  height: 1px;
+  width: 60%;
+  background-color: rgb(208, 206, 206);
+}
+
+.togg1 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+}
+
+.togg2 {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link2 {
+  padding: 10px 0px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.link2:hover {
+  background-color: rgb(208, 206, 206);
+}
+
+.togg2 i {
+  margin-left: 20px;
+}
+
+.hr {
+  height: 1px;
+  width: 90%;
+  margin: 10px 0px;
+  background-color: rgb(172, 166, 166);
+}
+
+.toggle1::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+.toggle1::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.toggle1::-webkit-scrollbar-thumb {
+  background-color: rgb(108, 108, 109);
+  border-radius: 20px;
+}
+
+#toggimg {
+  width: 50%;
+}
+
+.color {
+  color: red;
+}
+
+.font {
+  font-size: 14px;
+}
+
+.font:hover {
+  background-color: white;
+}
+
+.premiumpage1 {
+  width: 60%;
+}
+
+
+.premiumpage::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+.premiumpage::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.premiumpage::-webkit-scrollbar-thumb {
+  background-color: rgb(108, 108, 109);
+  border-radius: 20px;
+}
+.premiumpage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.premiumpage h3 {
+  font-weight: 400;
+}
+
+.premiumpage p {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.preimg {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#preimg {
+  width: 22%;
+}
+
+span {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.prebox {
+  width: 100%;
+  border: 0.5px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.prebox h3 {
+  padding: 1px 20px;
+}
+
+.prebox mark {
+  background-color: transparent;
+  color: green;
+  font-size: 11px;
+}
+
+.fa-arrow-left {
+  margin: 32px 20px 0px 0px;
+  color: black;
+}
+
+.premiumpage::-webkit-scrollbar {
+  width: 8px;
+}
+
+.premiumpage::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.premiumpage::-webkit-scrollbar-thumb {
+  background-color: rgb(108, 108, 109);
+  border-radius: 20px;
+}
+
+.toggle2 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 15;
+  right: 0;
+  /* transition: 1s; */
+}
+
+.toggle3 {
+  z-index: 15;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+  height: 100vh;
+  width: 80%;
+  background-color: black;
+}
+
+.preimages {
+  width: 100%;
+}
+
+.firstpage::-webkit-scrollbar {
+  width: 8px;
+}
+
+.firstpage::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.firstpage::-webkit-scrollbar-thumb {
+  background-color: rgb(108, 108, 109);
+  border-radius: 20px;
+}
